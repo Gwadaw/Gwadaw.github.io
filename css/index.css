@@ -1,0 +1,82 @@
+/* Global Styles */
+body {
+    background: linear-gradient(rgb(255, 255, 255), rgb(125, 240, 253)) no-repeat center center;
+    background-size: cover;
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Styles */
+header {
+    background-color: #5ee0f7;
+    padding: 20px;
+}
+
+/* Main Content Styles */
+main {
+    margin: 2%;
+}
+
+/* Footer Styles */
+footer {
+    text-align: right;
+    padding: 20px;
+    background-color: #5ee0f7;
+}
+
+/* Titre principal */
+h1 {
+    text-align: center;
+    margin-top: 0;
+}
+
+/* Carte Styles */
+.card {
+    border-radius: 5px;
+    background: linear-gradient(rgb(255, 255, 255), rgb(67, 154, 202)) no-repeat center center;
+    background-size: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+
+.card-img-top {
+    width: 100%;
+    display: block;
+    margin-top: 10px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-footer {
+    text-align: right;
+    padding: 10px 20px;
+}
+
+/* Logo Styles */
+.logo {
+    width: 50px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* Réseaux sociaux Styles */
+.social_media {
+    color: #333;
+}
+
+/* Taille des icônes des réseaux sociaux */
+.linkedin,
+.github,
+.mail {
+    width: 50px;
+    vertical-align: middle;
+    margin-right: 25px;
+}
